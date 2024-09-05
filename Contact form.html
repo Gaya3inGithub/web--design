@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+</head>
+<body>
+	<br><br>
+    <h1 align="center">Contact Us</h1>
+	<br><br>
+    <form action="/submit-contact" method="post" align="center" >
+        <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+		<br><br>
+        </div>
+		
+        <div>
+        <label for="address">Mailing Address:</label>
+		<input type="email" id="email" name="email" placeholder="Enter your mailing address" required>
+        <br><br>
+		<br><br>
+		</div>
+        
+        <div>
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" pattern="[0-9]{10}" required>
+        <br><br>
+		<br><br>
+        </div>
+       
+        <button type="submit" >Submit</button>
+    </form>
+</body>
+</html>
+
+
+

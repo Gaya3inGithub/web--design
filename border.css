@@ -1,0 +1,25 @@
+header img
+{
+	height:200;
+	width:300;
+	border-top:green 20px solid;
+	border-bottom:green 20px solid;
+	border-right:red 20px solid;
+	border-left:red 20px solid;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	background-size:100% 100%;
+	background-origin:border-box;
+}
+main img
+{
+	height:200;
+	width:200;
+	border-top:orange 20px solid;
+	border-bottom:orange 20px solid;
+	border-right:blue 20px solid;
+	border-left:blue 20px solid;
+	background-size:100% 100%;
+	background-origin:border-box;
+	border-radius:140px;
+}

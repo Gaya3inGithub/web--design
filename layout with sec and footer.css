@@ -1,0 +1,41 @@
+#navbar, #footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 15px;
+	width:100%;
+	margin:5px;
+	border-radius:5px;
+	
+}
+
+#section1, #section2, #section3 {
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+    height: 55px;
+    text-align: center;
+    color: white;
+	border-radius:5px;
+}
+
+#section1 { padding-top:48px;background-color: red; border-radius:5px;}
+#section2 { padding-top:48px;background-color: orange; border-radius:5px;}
+#section3 { padding-top:48px;background-color: pink; border-radius:5px;}
+
+#sec{
+	margin:5px;
+	border:black solid 3px;
+	height:125px;
+	width:100%;
+	border-radius:5px;
+}
+#footer {
+    clear: both;
+    background-color: blue;
+    margin-top: 5px;
+	margin:5px;
+	border-radius:5px;
+}
+
+

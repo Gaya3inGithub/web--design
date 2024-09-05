@@ -1,0 +1,14 @@
+#square1, #square2, #square3, #square4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-align:center;
+    padding-top: 5px; 
+    line-height: 1;
+}
+
+#square1 { background-color: red; top: 0; left: 0; }
+#square2 { background-color: green; top: 20px; left: 60px; }
+#square3 { background-color: blue; top: 40px; left: 140px; }
+#square4 { background-color: yellow; top: 60px; left: 220px; }

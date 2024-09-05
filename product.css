@@ -1,0 +1,16 @@
+#product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#product-grid > div {
+    width: 30%;
+    text-align: center;
+	padding-top:10px;
+	background-color:#e0a8ce;
+}
+body
+{
+	font-weight:bold;
+}

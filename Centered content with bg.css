@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding:0;
+	display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+	background-image:url(vk4.jpg),url(vk4.jpg),url(vk33.jpeg),url(vk33.jpeg);
+	background-repeat:repeat-x,repeat-x,repeat-y,repeat-y;
+	background-size:70px 70px, 70px 70px,70px 70px, 70px 70px;
+	background-position:top,bottom,left,right;
+	background-attachment:fixed;
+}
+
+h1 {
+	text-align:center;
+    font-family:times new roman;
+    color: #0056b3;
+	text-decoration:underline;
+}
+
+p {
+	background-image:url(aa.jpeg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+    font-family:times new roman;
+    font-size: 16px;
+    color: black;
+	text-align:justify;
+	font-weight:bold;
+	background-attachment:fixed;
+}
